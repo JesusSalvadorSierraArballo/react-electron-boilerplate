@@ -31,9 +31,9 @@ const svgRules = {
 
 module.exports = {
 //  mode: 'development',
-//  entry: './src/js/index.js',
-//  devtool: 'inline-source-map',
-//  target: 'electron-renderer',
+//  entry: './src/js/index.js', // Root file
+  //  devtool: 'inline-source-map',
+  //  target: 'electron-renderer',
   module: {
     rules: [javascriptRules, cssModulesRules, svgRules]
   },

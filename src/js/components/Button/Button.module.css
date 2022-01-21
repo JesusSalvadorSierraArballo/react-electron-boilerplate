@@ -1,0 +1,9 @@
+.button {
+	color: tomato;
+	height:150px;
+}
+
+.bottondos {
+	composes: button;
+	color: blue;
+}
